@@ -41,7 +41,7 @@ process p3 {
     script:
     """
     mkdir output_p3
-    cp -Lr ${p1Outputs} ${p2Outputs} output_p3/
+    cp -Lr ${inputPath} ${p1Outputs} ${p2Outputs} output_p3/
     """
 }
 
