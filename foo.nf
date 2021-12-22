@@ -30,8 +30,6 @@ process p2 {
 }
 
 process p3 {
-    publishDir "output_p3"
-    
     input:
         path inputPath
         path p1Outputs
